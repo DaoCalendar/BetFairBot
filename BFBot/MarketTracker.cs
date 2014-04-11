@@ -42,9 +42,11 @@ namespace BFBot
             {
             try
                 {
-                // Read  from file.
-                string[] lines = File.ReadAllLines(@"C:/Safe/BFB.txt");
-                s_exchange.Login(lines[0], lines[1]);
+                    if (File.Exists(@"C:/Safe/BFB.txt"))
+                    {
+                        string[] lines = File.ReadAllLines(@"C:/Safe/BFB.txt");
+                        s_exchange.Login(lines[0], lines[1]);
+                    }
                 }
             catch (Exception ex)
                 {
