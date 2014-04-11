@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="BetfairClient.Framework.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="BetfairClient_Framework_com_betfair_api6_global_BFGlobalService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://api.betfair.com/global/v3/BFGlobalService</Value>
+    </Setting>
+    <Setting Name="BetfairClient_Framework_com_betfair_api6_exchange_BFExchangeService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://api.betfair.com/exchange/v5/BFExchangeService</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
