@@ -41,6 +41,7 @@ namespace BFBot
             {
             try
                 {
+                // Read  from file.
                 s_exchange.Login("xxxxx", "d!");
                 }
             catch (Exception ex)
