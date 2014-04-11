@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Text;
 using BetfairG = BFBot.com.betfair.api6.global;
 using BetfairE = BFBot.com.betfair.api6.exchange;
@@ -42,7 +43,8 @@ namespace BFBot
             try
                 {
                 // Read  from file.
-                s_exchange.Login("xxxxx", "d!");
+                string[] lines = File.ReadAllLines(@"C:/Safe/BFB.txt");
+                s_exchange.Login(lines[0], lines[1]);
                 }
             catch (Exception ex)
                 {
